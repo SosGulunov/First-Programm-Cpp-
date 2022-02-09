@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int MyMoney;
+	int Price;
+	cin >> MyMoney;
+	cin >> Price;
+	
+	if (MyMoney >= Price) {
+		cout << "Let's Go";
+	}
+	else {;
+		cout << "Need to add";
+	}
+}
